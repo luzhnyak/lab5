@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "func-names": ["error", "never"]
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "env": {
+      "es6": true
+  }
+}
