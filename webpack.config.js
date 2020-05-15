@@ -5,7 +5,7 @@ const Dotenv = require('dotenv-webpack');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: './src/app.js',
+  entry: './src/index.js',
   output: {
     filename: 'bundle.[chunkhash].js',
     path: path.resolve(__dirname, 'public')
